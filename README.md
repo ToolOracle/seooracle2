@@ -1,36 +1,68 @@
-# 🔍 SEOOracle Pro
+# 🔎 seoOracle v2
 
-**Advanced SEO Intelligence MCP Server**
+**Consumer MCP Server** — 7 tools | Part of [ToolOracle](https://tooloracle.io)
 
-7 MCP tools | Part of [ToolOracle](https://tooloracle.io) | Live at `tooloracle.io/seo2/mcp/`
+![Tools](https://img.shields.io/badge/MCP_Tools-7-10B898?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)
+![Tier](https://img.shields.io/badge/Tier-Free-2196F3?style=flat-square)
 
 ## Quick Connect
 
 ```bash
+# Claude Desktop / Cursor / Windsurf
 npx -y mcp-remote https://tooloracle.io/seo2/mcp/
 ```
 
-## Tools
+```json
+// claude_desktop_config.json
+{
+  "mcpServers": {
+    "seooracle2": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://tooloracle.io/seo2/mcp/"]
+    }
+  }
+}
+```
 
-pagespeed, keyword_research, serp_preview, competitor_seo, backlink_check, seo_audit, health_check
+## Tools (7)
+
+| Tool | Description |
+|------|-------------|
+| `seo_audit` | Full on-page SEO audit: title, meta description, H1, alt texts, canonical, struc |
+| `pagespeed` | Google PageSpeed Insights scores: Performance, SEO, Accessibility, Core Web Vita |
+| `keyword_research` | Keyword research: related words, compound keywords, LSI keywords from news conte |
+| `serp_preview` | Preview how your page appears in Google search results. Check title and descript |
+| `competitor_seo` | Compare SEO and performance scores of your domain vs a competitor. |
+| `backlink_check` | Check backlink presence in CommonCrawl index and Open PageRank score. |
+| `health_check` | SEOOracle v2 server status. |
 
 ## Pricing
 
-| Tier | Price | Units/month |
-|------|-------|-------------|
-| Free | $0 | 50 |
-| Starter | $49 | 500 |
-| Pro | $149 | 2,000 |
-| Agency | $349 | 6,000 |
+| Tier | Rate Limit | Price |
+|------|-----------|-------|
+| Free | 100 calls/day | €0 |
+| Pro | 10,000 calls/day | €29/month |
+| Enterprise | Unlimited | Custom |
 
-1 unit = $0.01 | x402 USDC micropayments on Base supported
+> Free tier includes all tools with rate limiting. Upgrade for higher limits and priority support.
 
-## About ToolOracle
+## Part of ToolOracle
 
-ToolOracle delivers 24 AI-native intelligence products via MCP. 230+ tools across SEO, crypto, travel, weather, sports, B2B intelligence and more.
+seoOracle v2 is one of **42 specialized MCP servers** in the [ToolOracle](https://tooloracle.io) ecosystem — the largest collection of production-ready MCP tools for AI agents.
 
-[tooloracle.io](https://tooloracle.io)
 
-## License
 
-MIT
+**Related Oracles:**
+- [FeedOracle](https://feedoracle.io) — Evidence-grade compliance data infrastructure
+- [ToolOracle](https://tooloracle.io) — 42 Oracles, 390+ MCP Tools
+
+## Links
+
+- 🌐 Live: `https://tooloracle.io/seo2/mcp/`
+- 📚 Docs: [tooloracle.io/docs](https://tooloracle.io/docs)
+- 🏠 Platform: [tooloracle.io](https://tooloracle.io)
+
+---
+
+*Built by [FeedOracle](https://feedoracle.io) — Evidence by Design*
