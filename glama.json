@@ -1,1 +1,8 @@
-{"name": "SEOOracle Pro", "description": "Advanced SEO \u2014 7 MCP tools for PageSpeed, backlinks, competitor audit", "category": "business", "tags": ["seo", "pagespeed", "backlinks", "audit"], "tools": 7, "transport": "streamable-http", "endpoint": "https://tooloracle.io/seo2/mcp/"}
+{
+  "name": "seoOracle v2",
+  "description": "SEO Intelligence Pro \u2014 7 MCP tools for rankings, keywords, audits",
+  "repository": "https://github.com/ToolOracle/seooracle2",
+  "endpoint": "https://tooloracle.io/seo/mcp/",
+  "tools": 7,
+  "license": "MIT"
+}
